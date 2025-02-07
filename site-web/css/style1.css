@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'RubikGlitch-Regular';
+    src: url('../fonts/RubikGlitch-Regular.ttf') format('truetype');
+}
+
+body, header, footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 235, 235);
+    background-color: rgb(2, 2, 2)
+}
+
+
+
+p {
+    padding-left: 50px;
+}
+
+h1 {
+    color:rgb(177, 209, 185);
+    font-family: 'RubikGlitch-Regular';
+    font-weight: 100;
+    text-shadow: 0px 3px 5px rgba(97, 207, 125, 0.774);
+    text-decoration: underline;
+}
+
+h2 {
+    padding-left: 25px;
+    text-decoration: underline rgb(235, 235, 235);
+}
+
+h3 {
+    padding-left: 25px;
+}
+
+iframe {
+    border:rgba(124, 196, 1, 0.829) dashed;
+    padding-left: 25px;
+}
+
+a {
+    color:rgb(235, 235, 235);
+    font-family: "Lucida Console", "Courier New", monospace;
+    background-color: rgba(39, 39, 39, 0.507);
+    border-radius: 8px;
+    padding: 2.5px;
+    text-decoration: underline rgba(117, 184, 0, 0.651);
+    text-decoration-thickness: 3px;
+}
+
+.bannerie {
+    background-image: url('../images/rtx-architecture.jpg');
+}
+
+.bannerie2 {
+    background-image: url('../images/image2.jpg')
+}
+
+.text-centre {
+    text-align: center;
+}
+
+.rtx {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    box-shadow: 0px 0px 50px rgba(87, 126, 93, 0.582);
+}
